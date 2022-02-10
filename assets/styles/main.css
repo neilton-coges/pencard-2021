@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html, body {
+  /* font-family: 'RobotoRegular'; */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  height: 100vh;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+header .flag {
+  text-align: center;
+}
+
+header .flag-strip {
+  height: 25px;
+  width: 100%;
+}
+
+header .flag-strip.flag-strip-blue {
+  background: #232580;
+}
+
+header .flag-strip.flag-strip-yellow {
+  background: #F3E717;
+}
+
+header .flag-strip.flag-strip-green {
+  background: #37994C;
+}
+
+header .flag-star {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 21px;
+}
+
+header .flag-logo {
+  margin-top: 32px;
+}
+
+main {
+  width: 90%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 64px;
+  padding-bottom: 64px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+main aside.menu {
+  width: 250px;
+  height: min-content;
+  position: sticky;
+  top: 24px;
+  padding: 32px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  flex-grow: 0;
+}
+
+main aside.menu ul {
+  display: grid;
+  gap: 24px;
+
+  list-style: none;
+}
+
+main aside.menu ul li {
+  position: relative;
+}
+
+main aside.menu ul li a {
+  text-decoration: none;
+  color: #333;
+
+  font-size: 18px;
+}
+
+main aside.menu ul li a:hover {
+  color: #232580;
+
+  transition: color 0.2s;
+}
+
+main aside.menu ul li a.active {
+  color: #232580;
+}
+
+main aside.menu ul li a.active::before {
+  position: absolute;
+  content: '';
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  top: 0;
+  bottom: 0;
+  left: -32px;
+  width: 0; 
+  height: 0;
+
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid #232580;
+}
+
+main section.content {
+  flex: 1;
+}
+
+main section.content h1 {
+  position: relative;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #232580;
+
+
+  width: 100%;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.pdfobject-container { 
+  margin-top: 32px;
+  height: 50rem;
+}

@@ -1,0 +1,54 @@
+main section.content div.teams {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-top: 24px;
+}
+
+main section.content div.teams div.team {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main section.content div.teams div.team h3 {
+  color: #232580;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main section.content div.teams div.team ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main section.content div.teams div.team ul li {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+main section.content div.teams div.team ul li img {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  object-fit: cover;
+  background-color: #EEE;
+}
+
+main section.content div.teams div.team ul li div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+main section.content div.teams div.team ul li div strong {
+  color: #333
+}
+
+main section.content div.teams div.team ul li div span {
+  color: #333;
+  font-size: 14px;
+}

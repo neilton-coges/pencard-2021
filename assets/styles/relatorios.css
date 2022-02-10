@@ -1,0 +1,38 @@
+main section.content div.reports {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+  margin-top: 24px;
+}
+
+main section.content div.reports div.report {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+main section.content div.reports div.report h3 {
+  color: #232580;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main section.content div.reports div.report ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+main section.content div.reports div.report ul li  {
+  cursor: pointer;
+
+  font-size: 14px;
+  color: #333;
+
+}
+
+main section.content div.reports div.report ul li:hover {
+  color: #000000;
+  font-weight: 500;
+}

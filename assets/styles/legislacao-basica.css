@@ -1,0 +1,32 @@
+main section.content div.laws {
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main section.content div.laws div.law {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main section.content div.laws div.law h3 {
+  color: #232580;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main section.content div.laws div.law ul {
+  padding-left: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main section.content div.laws div.law ul li {
+  text-align: justify;
+  color: #333;
+}
