@@ -44,11 +44,15 @@ header .flag-star {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 21px;
+  top: 122px;
 }
 
 header .flag-logo {
   margin-top: 32px;
+}
+
+header .flag-logo-coges {
+  margin: 8px 0;
 }
 
 main {
